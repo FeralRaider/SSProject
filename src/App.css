@@ -29,7 +29,7 @@ html, body, #app, #app>div, #root {
 
 #section_content {
   /* The image used */
-  background-image: url(./img_home.jpg);
+  background-image: url(/imgs/img_home.jpg);
 
   /* Full height */
   height: 100%; 
