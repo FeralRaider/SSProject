@@ -4,7 +4,7 @@ import { Navbar, Nav, NavItem, NavDropdown, MenuItem } from 'react-bootstrap';
 class Footer_Custom extends React.Component {
     render() {
        return (
-          <div class="subcomponent_height">
+          <div className="subcomponent_height">
              <Navbar inverse collapseOnSelect fixedBottom>
                <Navbar.Header>
                   <Navbar.Brand>

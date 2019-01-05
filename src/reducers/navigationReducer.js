@@ -1,5 +1,6 @@
 export default function reducer(state={
     path: "DEFAULT",
+    example: {key: "test", text: "text"},
     loaded: true
 }, action) {
 

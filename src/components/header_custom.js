@@ -4,7 +4,7 @@ import { Navbar, Nav, NavItem } from 'react-bootstrap';
 class Custom_Header extends React.Component {
    render() {
       return (
-         <div class="subcomponent_height">
+         <div className="subcomponent_height">
             <Navbar inverse collapseOnSelect fixedTop>
                <Navbar.Header>
                   <Navbar.Brand>
