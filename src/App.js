@@ -19,7 +19,7 @@ class App extends react.Component {
   selectSection(path) {
     switch(path) {
       case 'Home':
-        return <Home stateData={this.props.navigation}></Home>;
+        return <Home stateData={this.props.navigation} navigation = {(path) => this.navigate(path) }></Home>;
       case 'About':
         return <About></About>;
       case 'Resume':
@@ -29,7 +29,7 @@ class App extends react.Component {
       case 'Contact':
         return <Contact></Contact>;
       default:
-        return <Home stateData={this.props.navigation}></Home>;
+        return <Home stateData={this.props.navigation} navigation = {(path) => this.navigate(path) }></Home>;
     }
   }
 

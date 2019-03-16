@@ -13,7 +13,7 @@ class Footer_Custom extends React.Component {
                   <Navbar.Toggle />
                </Navbar.Header>
                <Navbar.Collapse>
-                  <Nav pullRight>
+                  {/*<Nav pullRight>
                      <NavItem eventKey={1} href="#">
                         Home
                      </NavItem>
@@ -28,8 +28,8 @@ class Footer_Custom extends React.Component {
                      </NavItem>
                      <NavItem eventKey={2} href="#">
                         Contact
-                     </NavItem>
-                  </Nav>
+                     </NavItem> 
+                  </Nav>*/}
                </Navbar.Collapse>
             </Navbar>
           </div>

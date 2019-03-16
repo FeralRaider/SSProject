@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 class Interests extends React.Component {
     render() {
        return (
-          <div class="maincomponent_height">
+          <div id="section_content">
              <h1>Interests</h1>
           </div>
        );

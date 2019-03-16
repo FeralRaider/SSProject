@@ -1,25 +1,32 @@
 import React from 'react';
 import { NodeGroup } from 'react-move';
+import Post from '../blog/post';
 
 
 class Home extends React.Component {
 
    constructor(props) {
       super(props);
-      console.log(this.props)
   }
+  
     render() {
        return (
           <div id="section_content">
             <div className="layer">
-               <div id="test">
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                     Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure 
-                     dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non 
-                     proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+               <div id="fading" onClick={() => {this.props.navigation("Contact")}}>
+                  <p>
+                     {this.props.stateData.path}
                   </p>
                </div>
-            </div>
+               <div className="row">
+                  <Post navigation={() => {this.props.navigation("Contact")}}></Post>
+                  <Post navigation={() => {this.props.navigation("Contact")}}></Post>
+               </div>
+               <div className="row">
+                  <Post navigation={() => {this.props.navigation("Contact")}}></Post>
+                  <Post navigation={() => {this.props.navigation("Contact")}}></Post>
+               </div>
+            </div>          
           </div>
        );
     }
